@@ -1,5 +1,6 @@
-
-n def np_matmul(mat1, mat2)
+#!/usr/bin/env python3
+'''
+    The function def np_matmul(mat1, mat2)
     that performs matrix multiplication
 '''
 
