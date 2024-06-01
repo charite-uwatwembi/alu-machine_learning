@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-This module provides a function to calculate the sum of squares of the first n natural numbers.
+This module provides a function to calculate 
+the sum of squares 
+of the first n natural numbers.
 """
 
 
