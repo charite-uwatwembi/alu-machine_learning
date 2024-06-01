@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 def poly_derivative(poly):
-
-
     """
     Calculate the derivative of a polynomial.
     """
@@ -10,8 +8,10 @@ def poly_derivative(poly):
     if len(poly) == 1:
         return [0]
     
+    
     derivative = [i * poly[i] for i in range(1, len(poly))]
     return derivative
+
 
 # Example usage
 if __name__ == "__main__":
