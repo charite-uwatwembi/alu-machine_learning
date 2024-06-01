@@ -23,9 +23,3 @@ def poly_derivative(poly):
         for power, coefficient in enumerate(poly)
     ][1:]
     return derivative
-
-
-# Example usage:
-if __name__ == "__main__":
-    poly = [5, 3, 0, 1]  # Represents the polynomial 5 + 3x + x^3
-    print(poly_derivative(poly))
