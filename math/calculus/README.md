@@ -1,1 +1,1 @@
-Calculus isn't for fun !
+Calculus for Machine Learning!
