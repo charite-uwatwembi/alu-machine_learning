@@ -55,4 +55,4 @@ class Poisson:
         for i in range(k + 1):
             result = result + self.pmf(i)
         return result
-    
+ 
