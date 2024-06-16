@@ -57,35 +57,35 @@ def correlation_matrix(X):
         return covariance_matrix(X) / stdev_x / stdev_y
     else:
         return 0
-   ```
+```
 
 ## Variance Matrix
 ```python
 def variance_matrix(X):
     n = len(X)
     return 1 / (n - 1) * dot(de_mean_matrix(X), de_mean_matrix(X).T)
- ```
+```
 
 ## De-mean Matrix
 ```python
 def de_mean_matrix(X):
     mean_X = mean_matrix(X)
     return [de_mean(x_i, mean_X) for x_i in X]
- ```
+```
 
 ## Mean Matrix
 ```python
 def mean_matrix(X):
     return [mean(x_i) for x_i in X]
-  ```
+```
 
 ## De-mean
 ```python
 def de_mean(x, mean_x):
     return [x_i - mean_x for x_i in x]
-  ```
+```
 ## Dot
 ```python
 def dot(v, w):
     return sum(v_i * w_i for v_i, w_i in zip(v, w))
- ```
+```
