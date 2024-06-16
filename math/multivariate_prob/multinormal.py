@@ -28,7 +28,7 @@ class MultiNormal:
 
         mean = np.mean(data, axis=1).reshape(data.shape[0], 1)
         self.mean = mean
-        cov = np.matmul(data - mean, data.T) / (data.shape[1] - 1)
+        cov = np.matmul(data - mean, (data - mean).T) / (data.shape[1] - 1)
         self.cov = cov
 
     def pdf(self, x):
@@ -48,17 +48,11 @@ class MultiNormal:
             )
 
         # calculate PDF
-        # print(self.cov.shape)
         d = self.cov.shape[0]
         x_m = x - self.mean
         cov_inv = np.linalg.inv(self.cov)
         det = np.linalg.det(self.cov)
-        # divide the formulae to two
-        # print(np.pi)
-        pi = 3.1415926536
-        prefactor = 1.0 / (np.sqrt((2 * pi) ** d * det))
-        # exponent = -0.5 * np.dot(np.dot(x_m.T, cov_inv), x_m)
+        prefactor = 1.0 / (np.sqrt((2 * np.pi) ** d * det))
         exponent = -0.5 * np.matmul(np.matmul(x_m.T, cov_inv), x_m)
         pdf = prefactor * np.exp(exponent)
-        # print(pdf)
         return pdf[0][0]
