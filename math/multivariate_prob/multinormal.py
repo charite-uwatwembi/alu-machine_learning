@@ -22,4 +22,3 @@ class MultiNormal:
 
         self.mean = mean
         self.cov = deviations @ deviations.T / (n - 1)
-     
