@@ -5,7 +5,7 @@ This module contains a function that
 calculates the posterior probability
 that the probability of developing
 severe side effects falls within a
-specific range given the data
+specific range given the data.
 """
 
 from scipy import special
