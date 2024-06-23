@@ -47,7 +47,7 @@ def posterior(x, n, p1, p2):
         raise ValueError(
             "p2 must be greater than p1")
 
-    # Calculate the posterior probability using the Beta distribution
+    # Calculate the posterior probability by using the Beta distribution
     posterior_prob = special.betainc(
         x + 1, n - x + 1, p2) - special.betainc(x + 1, n - x + 1, p1)
 
