@@ -33,7 +33,7 @@ def posterior(x, n, p1, p2):
             "x must be an integer that is greater than or equal to 0")
 
     if x > n:
-        raise ValueError("x cannot be greater than n")
+        raise ValueError("x can't be greater than n")
 
     if not isinstance(p1, float) or p1 < 0 or p1 > 1:
         raise ValueError(
