@@ -1,1 +1,1 @@
-Classification - supervised learning.
+Classification -Neuro Network - supervised learning.
