@@ -1,1 +1,1 @@
-Ml - classification - supervised learning.
+Machine learning - classification - supervised learning.
