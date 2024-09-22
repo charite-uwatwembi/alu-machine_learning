@@ -1,1 +1,1 @@
-Tensorflow - supervised learning, Machine learning
+Tensorflow - supervised learning-deep learning, Machine learning
