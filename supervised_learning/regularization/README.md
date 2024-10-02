@@ -1,1 +1,1 @@
-Regularization in machine learning.
+Regularization in machine learning(deep learning)..
