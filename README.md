@@ -1,1 +1,1 @@
-ALU Machine Learning
+ALU Machine Learning modules
