@@ -2,6 +2,16 @@
 import requests
 
 def availableShips(passengerCount):
+    """
+    Fetches a list of ships from the Swapi API that can hold at least 
+    a given number of passengers.
+
+    Args:
+        passengerCount (int): The minimum number of passengers a ship should hold.
+
+    Returns:
+        list: A list of ship names that can hold at least the specified number of passengers.
+    """
     url = 'https://swapi.dev/api/starships/'
     ships = []
     
@@ -19,8 +29,11 @@ def availableShips(passengerCount):
     
     return ships
 
-# Test the function with a passenger count of 4
+
 if __name__ == "__main__":
+    """
+    Test the availableShips function with different passenger counts.
+    """
     ships = availableShips(4)
     for ship in ships:
         print(ship)
