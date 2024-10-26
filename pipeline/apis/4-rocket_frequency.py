@@ -6,8 +6,8 @@ if __name__ == '__main__':
     """pipeline api"""
     url = "https://api.spacexdata.com/v4/launches"
     r = requests.get(url)
-    
-    # Dictionary to count launches by rocket ID dynamically
+
+# Dictionary to count launches by rocket ID dynamically
     rocket_dict = {}
 
     # Count launches per rocket ID
