@@ -1,1 +1,1 @@
-ALU - Machine Learning and Artificial Intelligence modules .
+ALU - Machine Learning and Artificial Intelligence Specialization modules .
