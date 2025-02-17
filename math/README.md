@@ -1,1 +1,1 @@
-ALU Machine Learning 
+ALU Marhematics for Machine Learning 
