@@ -1,1 +1,1 @@
-# Attempt the knowledge of RNNs to predict the value of a Bitcoin.
+# Attempted the knowledge of RNNs to predict the value of a Bitcoin.
