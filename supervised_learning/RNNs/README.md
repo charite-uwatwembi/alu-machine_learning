@@ -1,1 +1,1 @@
-# This project aims the concept of Reccurrent Neural Networks(RNNs).
+# This project aims to the concept of Reccurrent Neural Networks(RNNs).
