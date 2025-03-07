@@ -1,1 +1,1 @@
-ALU - Machine Learning and Artificial Intelligence Specialization modules .
+African LU - Machine Learning and Artificial Intelligence Specialization modules .
