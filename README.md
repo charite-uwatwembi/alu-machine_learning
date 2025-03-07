@@ -1,1 +1,1 @@
-African LeadershipU - Machine Learning and Artificial Intelligence Specialization modules .
+African Leadership U - Machine Learning and Artificial Intelligence Specialization modules .
