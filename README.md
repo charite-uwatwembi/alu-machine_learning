@@ -1,1 +1,1 @@
-ALU - Machine Learning and Artificial Intelligence Specialization modules .
+African Leadership University - Machine Learning and Artificial Intelligence Specialization modules .
