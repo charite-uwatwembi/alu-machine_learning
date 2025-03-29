@@ -1,1 +1,1 @@
-African Leadership University - Machine Learning and Artificial Intelligence Specialization modules for ML final year.
+African Leadership University - Machine Learning and Artificial Intelligence Specialization modules for  year.
