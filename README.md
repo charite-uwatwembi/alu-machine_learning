@@ -1,1 +1,1 @@
-ALU - Machine Learning and Artificial Intelligence Specialization modules for 3rd years.
+ALU - Machine Learning and Artificial Intelligence Specialization modules for final year students.
