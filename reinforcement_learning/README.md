@@ -1,1 +1,1 @@
-Alu Reinforcement_Learning in Machine learning
+Alu Reinforcement_Learning in Machine learning course.
