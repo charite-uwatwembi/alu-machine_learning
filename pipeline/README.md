@@ -1,1 +1,1 @@
-ALU - Machine learning pipeline.
+African Leadership University - Machine learning pipeline.
