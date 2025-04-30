@@ -1,1 +1,1 @@
-ALU Mathematics for Machine Learning 
+ALU Mathematics for Machine Learning.
