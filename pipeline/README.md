@@ -1,1 +1,1 @@
-African Leadership University - Machine learning pipeline course.
+African Leadership University - Machine learning pipeline course for.
