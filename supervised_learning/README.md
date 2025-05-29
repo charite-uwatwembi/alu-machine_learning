@@ -1,1 +1,1 @@
-ALU Machine learning - classification and tensorflow - for supervised learning.
+ALU Machine learning - classification and tensorflow - for supervised learning courses.
